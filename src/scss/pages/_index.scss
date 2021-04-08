@@ -1,0 +1,11 @@
+@use "../abstracts/vars/colors" as c;
+
+html{
+  background-color: c.$transparent-white;
+}
+
+body{
+  display: grid;
+  place-items: center;
+  padding: 85px 25px;
+}
